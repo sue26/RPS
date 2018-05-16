@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock, Paper, Scissor Game</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="functions.js"></script>
+	<script src="interface.js"></script>
+</head>
+<body>
+	<div id="mainPage">
+		<div id="display" style="width: 60%; border: 1px solid yellow; display: inline-block;">
+			<div id="game_result">
+			</div>
+			<div id="comp_output">
+			</div>
+			<div id="user_output">
+			</div>
+			<div id="user_input">
+				<button onclick="play(this)" id="rock">Rock</button>
+				<button onclick="play(this)" id="paper">Paper</button>
+				<button onclick="play(this)" id="scissor">Scissor</button>
+			</div>
+		</div>
+
+		<div id="analyze" style="width: 30%; border: 1px solid red; display: inline-block;">
+		</div>
+		
+	</div>
+	<!-- It covers the entire application with the start button -->
+	<!-- <div id="startPage">
+		<button onclick="hideStartPage()">Start</button>
+	</div> -->
+</body>
+</html>
